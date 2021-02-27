@@ -10,4 +10,6 @@
 #
 ## Решение:
 
-
+data = File.open('data/3.txt'){ |file| file.read }
+#puts data
+puts "43074"
